@@ -10,8 +10,8 @@ packages = [{include = "pydantic_computed"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pydantic = "^1.10.2"
-setuptools = "^65.6.3"
+pydantic = "*"
+setuptools = "*"
 
 
 [tool.poetry.group.dev.dependencies]
